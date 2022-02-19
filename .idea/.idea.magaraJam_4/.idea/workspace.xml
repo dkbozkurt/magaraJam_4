@@ -3,11 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/FireSlime.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/FireSlime.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/Materials/basic slime.001_Bake1_pbr_emission.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/Materials/basic slime.001_Bake1_pbr_emission.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/FireSlimeBake_19022022-1801/basic slime.001_Bake1_pbr_specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/icecube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/icecube.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/rockcube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/rockcube.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Yellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645264774688</updated>
       <workItem from="1645264779632" duration="51000" />
-      <workItem from="1645266320868" duration="13283000" />
+      <workItem from="1645266320868" duration="13926000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,17 @@
 fileFormatVersion: 2
-guid: 525b165c7009d7040aba6f1f4b028705
+guid: a01cf8d3cf3f15c4199c75dd3f154218
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -7515160441543938344
+    second: basic slime.001_Baked|Action
+  - first:
+      74: -4250954552611743786
+    second: basic slime.001_Baked|basic slimeAction
+  - first:
+      74: 3772106575577777692
+    second: basic slime.001_Baked|Key.001Action
   externalObjects: {}
   materials:
     materialImportMode: 2

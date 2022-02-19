@@ -34,6 +34,7 @@ public class HealthBarBehaviour : MonoBehaviour
         {
             _currentHealth += healAmount;
         }
+        
         transform.GetChild(0).localScale = new Vector3(_currentHealth / _maxHealth,
             transform.GetChild(0).localScale.y,
             transform.GetChild(0).localScale.z);

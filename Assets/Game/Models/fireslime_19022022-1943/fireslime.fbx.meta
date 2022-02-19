@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: a01cf8d3cf3f15c4199c75dd3f154218
+guid: 1cd4725f870b6334793f08d4476589e5
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
+      74: 3854423144681069676
+    second: basic slime|Action
+  - first:
+      74: 4656453048784133898
+    second: basic slime|basic slime.001_Baked|basic slime.001_Baked|Action|basic
+      slime.
+  - first:
       74: -7515160441543938344
     second: basic slime.001_Baked|Action
   - first:
-      74: -4250954552611743786
-    second: basic slime.001_Baked|basic slimeAction
-  - first:
-      74: 3772106575577777692
-    second: basic slime.001_Baked|Key.001Action
+      74: -110910225929859812
+    second: basic slime.001_Baked|basic slime.001_Baked|basic slime.001_Baked|Action|basic
+      slime.
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -79,7 +84,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
+    blendShapeNormalImportMode: 0
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
