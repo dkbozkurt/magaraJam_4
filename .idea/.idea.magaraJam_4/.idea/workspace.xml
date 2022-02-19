@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Materials/CharacterModes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/CollectableElements.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/CollectableElements/Element.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/CollectableElements/Element.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Model.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magaraJam_4.sln" beforeDir="false" afterPath="$PROJECT_DIR$/magaraJam_4.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Model.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="25K9AzcBkA4bUYrvFoiVFa5C7oI" />
   <component name="ProjectViewState">
@@ -57,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645264774688</updated>
       <workItem from="1645264779632" duration="51000" />
-      <workItem from="1645266320868" duration="2364000" />
+      <workItem from="1645266320868" duration="5924000" />
     </task>
     <servers />
   </component>
