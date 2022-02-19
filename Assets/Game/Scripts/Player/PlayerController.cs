@@ -22,6 +22,9 @@ namespace Game.Scripts.Player
 
         private float turnSmoothVelocity;
 
+        public bool isMoving = false;
+
+
         private void Awake()
         {
             _characterController = GetComponent<CharacterController>();
@@ -39,8 +42,14 @@ namespace Game.Scripts.Player
 
             if (direction.magnitude >= 0.1f)
             {
+                isMoving = true;
                 Rotate(direction);
                 _characterController.Move(direction * speed * Time.deltaTime);
+                
+            }
+            else
+            {
+                isMoving = false;
             }
         }
 
@@ -53,6 +62,7 @@ namespace Game.Scripts.Player
             
             transform.rotation = Quaternion.Euler(0f,angle,0f);
         }
+        
         
     }    
 }

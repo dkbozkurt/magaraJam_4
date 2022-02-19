@@ -28,6 +28,7 @@ namespace Game.Scripts.Player
 
         [SerializeField] private HealthBarBehaviour healthBarBehaviour;
         private float damageAmount = 10f;
+        [HideInInspector] public bool _isCollectable= true;
         
         
         private void OnTriggerEnter(Collider other)
@@ -61,26 +62,49 @@ namespace Game.Scripts.Player
 
         private void Fire()
         {
-            _firePercentage += percentageMultiplier;
-            expBarFire.UpdateFillAmount(_firePercentage);
-            if (_firePercentage >= 100f) CheckIfUpgradable(1) ;
+            if (_isCollectable)
+            {
+                _firePercentage += percentageMultiplier;
+                expBarFire.UpdateFillAmount(_firePercentage);
+                if (_firePercentage >= 100f)
+                {
+                    _firePercentage = 0f;
+                    CheckIfUpgradable(1) ;
+                }
+            }
+            
         }
 
         private void Ice()
         {
-            _icePercentage += percentageMultiplier;
-            expBarIce.UpdateFillAmount(_icePercentage);
-            if (_icePercentage >= 100f) CheckIfUpgradable(2) ;
+            if (_isCollectable)
+            {
+                _icePercentage += percentageMultiplier;
+                expBarIce.UpdateFillAmount(_icePercentage);
+                if (_icePercentage >= 100f)
+                {
+                    _icePercentage = 0f;
+                    CheckIfUpgradable(2) ;
+                }
+            }
+            
         }
 
         private void Stone()
         {
-            _stonePercentage += percentageMultiplier;
-            expBarStone.UpdateFillAmount(_stonePercentage);
-            if (_stonePercentage >= 100f) CheckIfUpgradable(3) ;
+            if (_isCollectable)
+            {
+                _stonePercentage += percentageMultiplier;
+                expBarStone.UpdateFillAmount(_stonePercentage);
+                if (_stonePercentage >= 100f)
+                {
+                    _stonePercentage = 0f;
+                    CheckIfUpgradable(3) ;
+                }
+            }
         }
         
-        private void CheckIfUpgradable(int modelIndex)
+        public void CheckIfUpgradable(int modelIndex)
         {
             foreach (Transform model in transform.GetChild(0))
             {

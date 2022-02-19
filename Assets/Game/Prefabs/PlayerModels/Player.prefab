@@ -10041,6 +10041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   turnSmoothTime: 0.1
+  _slimeAnimationController: {fileID: 0}
+  _fireAnimationController: {fileID: 0}
 --- !u!114 &905230905076401399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10058,6 +10060,7 @@ MonoBehaviour:
   expBarStone: {fileID: 0}
   percentageMultiplier: 25
   healthBarBehaviour: {fileID: 0}
+  _isCollectable: 1
 --- !u!1 &7232522182238476156
 GameObject:
   m_ObjectHideFlags: 0
@@ -19853,6 +19856,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8128913006178610614}
+  - component: {fileID: 6137560786762786185}
+  - component: {fileID: 5022277046848368540}
   m_Layer: 0
   m_Name: FireModel
   m_TagString: Untagged
@@ -19876,6 +19881,37 @@ Transform:
   m_Father: {fileID: 7232522182238476159}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6137560786762786185
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877246512979926098}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ac481ec0ccec614896db39b00db5cfa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5022277046848368540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877246512979926098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e4229ac395ac543b405df40cd2d35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8899758331931359974
 GameObject:
   m_ObjectHideFlags: 0
@@ -19885,6 +19921,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8844321589180422648}
+  - component: {fileID: 6022975909449935786}
+  - component: {fileID: 2724590138932551358}
   m_Layer: 0
   m_Name: SlimeModel
   m_TagString: Untagged
@@ -19908,6 +19946,37 @@ Transform:
   m_Father: {fileID: 7232522182238476159}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6022975909449935786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8899758331931359974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fee1017ad9a1d9a4e8aeb409a98827af, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2724590138932551358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8899758331931359974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e4229ac395ac543b405df40cd2d35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &214629176014509653
 PrefabInstance:
   m_ObjectHideFlags: 0

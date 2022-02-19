@@ -30,12 +30,19 @@ public class HealthBarBehaviour : MonoBehaviour
     
     public void HealthBarUpdate(float healAmount)
     {
-        if (_currentHealth <= _maxHealth && _currentHealth >0)
+        _currentHealth += healAmount;
+
+        if (_currentHealth > _maxHealth)
         {
-            _currentHealth += healAmount;
+            _currentHealth = _maxHealth;
         }
-        
-        transform.GetChild(0).localScale = new Vector3(_currentHealth / _maxHealth,
+        else if (_currentHealth <= 0f)
+        {
+            _currentHealth = 0f;
+            // Die();
+        }
+
+            transform.GetChild(0).localScale = new Vector3(_currentHealth / _maxHealth,
             transform.GetChild(0).localScale.y,
             transform.GetChild(0).localScale.z);
     }
