@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 /// <summary>
@@ -11,13 +12,6 @@ namespace Game.Scripts.Player
 {
     public class PlayerUpgradeBehaviour : MonoBehaviour
     {
-        public enum PlayerMode
-        {
-            Fire,
-            Ice,
-            Stone
-        }
-
         #region ModePercentages
 
         private float _firePercentage=0f;
@@ -28,9 +22,12 @@ namespace Game.Scripts.Player
         [SerializeField] private ExperienceBarBehaviour expBarIce;
         [SerializeField] private ExperienceBarBehaviour expBarStone;
 
-        [SerializeField] private float percentageMultiplier= 10f;
+        [SerializeField] private float percentageMultiplier= 25f;
         
         #endregion
+
+        [SerializeField] private HealthBarBehaviour healthBarBehaviour;
+        private float damageAmount = 10f;
         
         
         private void OnTriggerEnter(Collider other)
@@ -43,34 +40,46 @@ namespace Game.Scripts.Player
             switch (enemy.tag)
             {
                 case "Fire":
-                    _firePercentage += percentageMultiplier;
-                    expBarFire.UpdateFillAmount(_firePercentage);
-                    if (_firePercentage >= 100f) CheckIfUpgradable(1) ;
+                    Fire();
                     break;
                 
                 case "Ice":
-                    _icePercentage += percentageMultiplier;
-                    expBarIce.UpdateFillAmount(_icePercentage);
-                    if (_icePercentage >= 100f) CheckIfUpgradable(2) ;
+                    Ice();
                     break;
                 
                 case "Stone":
-                    _stonePercentage += percentageMultiplier;
-                    expBarStone.UpdateFillAmount(_stonePercentage);
-                    if (_stonePercentage >= 100f) CheckIfUpgradable(3) ;
+                    Stone();
+                    break;
+                
+                case "Shoot":
+                    healthBarBehaviour.HealthBarUpdate(-damageAmount);
                     break;
                 
             }
-
             Destroy(enemy);
-            Print();
-
         }
 
-        private void Print()
+        private void Fire()
         {
-            Debug.Log("Percentages = " + _firePercentage +" " + _icePercentage +" "+ _stonePercentage);
+            _firePercentage += percentageMultiplier;
+            expBarFire.UpdateFillAmount(_firePercentage);
+            if (_firePercentage >= 100f) CheckIfUpgradable(1) ;
         }
+
+        private void Ice()
+        {
+            _icePercentage += percentageMultiplier;
+            expBarIce.UpdateFillAmount(_icePercentage);
+            if (_icePercentage >= 100f) CheckIfUpgradable(2) ;
+        }
+
+        private void Stone()
+        {
+            _stonePercentage += percentageMultiplier;
+            expBarStone.UpdateFillAmount(_stonePercentage);
+            if (_stonePercentage >= 100f) CheckIfUpgradable(3) ;
+        }
+        
         private void CheckIfUpgradable(int modelIndex)
         {
             foreach (Transform model in transform.GetChild(0))
@@ -81,5 +90,7 @@ namespace Game.Scripts.Player
             transform.GetChild(0).GetChild(modelIndex).gameObject.SetActive(true);
 
         }
+        
+        
     }
 }
