@@ -21,10 +21,14 @@ namespace Game.Scripts.Player
         #region ModePercentages
 
         private float _firePercentage=0f;
-        private float _ironPercentage=0;
-        private float _earthPercentage=0;
+        private float _icePercentage=0;
+        private float _stonePercentage=0;
 
-        [SerializeField] private float percentageMultiplier= 50f;
+        [SerializeField] private ExperienceBarBehaviour expBarFire;
+        [SerializeField] private ExperienceBarBehaviour expBarIce;
+        [SerializeField] private ExperienceBarBehaviour expBarStone;
+
+        [SerializeField] private float percentageMultiplier= 10f;
         
         #endregion
         
@@ -40,12 +44,20 @@ namespace Game.Scripts.Player
             {
                 case "Fire":
                     _firePercentage += percentageMultiplier;
+                    expBarFire.UpdateFillAmount(_firePercentage);
                     if (_firePercentage >= 100f) CheckIfUpgradable(1) ;
                     break;
                 
                 case "Ice":
-
-                    
+                    _icePercentage += percentageMultiplier;
+                    expBarIce.UpdateFillAmount(_icePercentage);
+                    if (_icePercentage >= 100f) CheckIfUpgradable(2) ;
+                    break;
+                
+                case "Stone":
+                    _stonePercentage += percentageMultiplier;
+                    expBarStone.UpdateFillAmount(_stonePercentage);
+                    if (_stonePercentage >= 100f) CheckIfUpgradable(3) ;
                     break;
                 
             }
@@ -57,7 +69,7 @@ namespace Game.Scripts.Player
 
         private void Print()
         {
-            Debug.Log("Fire Percentage = " + _firePercentage);
+            Debug.Log("Percentages = " + _firePercentage +" " + _icePercentage +" "+ _stonePercentage);
         }
         private void CheckIfUpgradable(int modelIndex)
         {
