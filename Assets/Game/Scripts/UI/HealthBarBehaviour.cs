@@ -28,7 +28,7 @@ public class HealthBarBehaviour : MonoBehaviour
     {
         gameObject.transform.position = new Vector3(player.transform.position.x,
             player.transform.position.y,
-            player.transform.position.z -2f);
+            player.transform.position.z - (player.transform.localScale.z + 1f));
         
     }
     
