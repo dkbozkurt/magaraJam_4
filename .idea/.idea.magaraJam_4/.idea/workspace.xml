@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Fire/FireAnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Fire/FireAnimController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/Idle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/PlayerAnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Player Model Anims/PlayerAnimController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Experience Bar/ExperienceBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Experience Bar/ExperienceBar.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Menu.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerAnimController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/ExperienceBarBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +77,7 @@
       <updated>1645264774688</updated>
       <workItem from="1645264779632" duration="51000" />
       <workItem from="1645266320868" duration="17907000" />
-      <workItem from="1645346158411" duration="4183000" />
+      <workItem from="1645346158411" duration="6230000" />
     </task>
     <servers />
   </component>

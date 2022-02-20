@@ -36,14 +36,4 @@ public class AnimationController : MonoBehaviour
     {
         _animator.SetBool("move",isMoving);
     }
-
-    public void Size()
-    {
-        
-    }
-
-    public void Die()
-    {
-        
-    }
 }
