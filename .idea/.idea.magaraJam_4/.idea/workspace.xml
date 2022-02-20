@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/EnemyAnimations/Fire/FireGolemAnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/EnemyAnimations/Fire/FireGolemAnimController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/EnemyAnimations/Fire/Golem Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/EnemyAnimations/Fire/Golem Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/ice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/ice.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/stone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/stone.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/FireEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/FireEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/IceEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/IceEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/IceEnemy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/IceEnemy.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/StoneEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/StoneEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/StoneEnemy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/StoneEnemy.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Sphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyAnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyAnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/ShootBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/ShootBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -49,6 +49,8 @@ public class HealthBarBehaviour : MonoBehaviour
         {
             _currentHealth = 0f;
             _playerAnimController.Die();
+            Invoke("GameEnd",2f);
+            
         }
 
             transform.GetChild(0).localScale = new Vector3(_currentHealth / _maxHealth,
@@ -61,5 +63,10 @@ public class HealthBarBehaviour : MonoBehaviour
         player.transform.localScale = new Vector3(player.transform.localScale.x + value, 
             player.transform.localScale.y + value,
         player.transform.localScale.z +  value);
+    }
+
+    private void GameEnd()
+    {
+        Time.timeScale = 0f;
     }
 }

@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
     public int rightLaneSpawnerLow;
     public int rightLaneSpawnerHigh;
     public int numRightLaneCars;
-
+    
 
     void Start()
     {
@@ -48,7 +48,7 @@ public class EnemySpawner : MonoBehaviour
         int randomNumber = Random.Range(0, 3);
         Vector3 position = new Vector3(Random.Range(-spawnRange, spawnRange), 2, Random.Range(-spawnRange, spawnRange));
         Instantiate(enemyPrefab[randomNumber], position, Quaternion.identity);
-
+        
         totalEnemySpawned++;
         if (totalEnemySpawned >= checkPointEnemySpawnedNumber)
         {

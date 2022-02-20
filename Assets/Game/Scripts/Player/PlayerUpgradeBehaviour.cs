@@ -39,6 +39,7 @@ namespace Game.Scripts.Player
         private void OnTriggerEnter(Collider other)
         {
             CheckEnemyType(other.gameObject);
+            
         }
 
         private void CheckEnemyType(GameObject enemy)
@@ -59,18 +60,21 @@ namespace Game.Scripts.Player
                 
                 case "Stone":
                     _playerAnimController.Size(+1);
-                    healthBarBehaviour.HealthBarUpdate(inputAmount);
                     Stone();
+                    healthBarBehaviour.HealthBarUpdate(inputAmount);
                     break;
                 
                 case "Shoot":
                     _playerAnimController.Size(-1);
                     healthBarBehaviour.HealthBarUpdate(-inputAmount);
+                    Destroy(enemy);
                     break;
                 
             }
-            Destroy(enemy);
+            
         }
+
+        
 
         private void Fire()
         {
@@ -142,6 +146,7 @@ namespace Game.Scripts.Player
             }
                 
         }
+        
         
         
     }

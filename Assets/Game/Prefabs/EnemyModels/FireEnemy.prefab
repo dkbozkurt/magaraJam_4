@@ -965,6 +965,7 @@ GameObject:
   - component: {fileID: 8958818592447031626}
   - component: {fileID: 1788819443307278004}
   - component: {fileID: 4388560478271251469}
+  - component: {fileID: 4735367003553771432}
   m_Layer: 0
   m_Name: FireEnemy
   m_TagString: Fire
@@ -1022,10 +1023,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3375976bb1cb36f4082d542aede53174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopDistance: 8
+  stopDistance: 10
   speed: 5
   _timer: 0
-  attackCoolDown: 5
+  attackCoolDown: 1
+  isDead: 0
 --- !u!65 &8958818592447031626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1071,6 +1073,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4735367003553771432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6146323977081797713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c663e5613dc1240bdd631be31e4e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6231105547361662673
 GameObject:
   m_ObjectHideFlags: 0

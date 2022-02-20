@@ -18,7 +18,9 @@ public class ShootBehaviour : MonoBehaviour
     public void Shoot(GameObject Enemy)
     {
         GameObject bullet = Instantiate(attackPrefab);
-        bullet.transform.position = Enemy.transform.position;
+        bullet.transform.position = new Vector3(Enemy.transform.position.x,
+            Enemy.transform.position.y+Enemy.transform.localScale.y,
+            Enemy.transform.position.z);
         bullet.GetComponent<Rigidbody>().velocity = Enemy.transform.forward * _shootSpeed;
         Destroy(bullet,destroyShootTime);
     }
