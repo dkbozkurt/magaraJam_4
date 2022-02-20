@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Firegolem.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Firegolem.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/IceModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/IceModel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/StoneModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/StoneModel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/FireEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/FireEnemy.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +23,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerAnimController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/ExperienceBarBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
