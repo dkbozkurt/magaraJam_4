@@ -69,7 +69,7 @@ namespace Game.Scripts.Player
                 if (_firePercentage >= 100f)
                 {
                     _firePercentage = 0f;
-                    CheckIfUpgradable(1) ;
+                    UpgradeModel(1) ;
                 }
             }
             
@@ -84,7 +84,7 @@ namespace Game.Scripts.Player
                 if (_icePercentage >= 100f)
                 {
                     _icePercentage = 0f;
-                    CheckIfUpgradable(2) ;
+                    UpgradeModel(2) ;
                 }
             }
             
@@ -99,20 +99,36 @@ namespace Game.Scripts.Player
                 if (_stonePercentage >= 100f)
                 {
                     _stonePercentage = 0f;
-                    CheckIfUpgradable(3) ;
+                    UpgradeModel(3) ;
                 }
             }
         }
         
-        public void CheckIfUpgradable(int modelIndex)
+        public void UpgradeModel(int modelIndex)
         {
             foreach (Transform model in transform.GetChild(0))
             {
                 model.gameObject.SetActive(false);
             }
-            
             transform.GetChild(0).GetChild(modelIndex).gameObject.SetActive(true);
+            
+            // Update Particle play
+            transform.GetChild(1).gameObject.SetActive(true);
+            Wait(0.75f);
 
+        }
+
+        private void Wait(float t)
+        {
+            StartCoroutine(Do());
+            
+            IEnumerator Do()
+            {
+                yield return new WaitForSeconds(t);
+                transform.GetChild(1).gameObject.SetActive(false);
+                
+            }
+                
         }
         
         

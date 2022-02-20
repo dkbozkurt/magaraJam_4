@@ -47,7 +47,7 @@ public class ExperienceBarBehaviour : MonoBehaviour
             yield return new WaitForSeconds(t);
             expBar.fillAmount = 0f;
             _playerUpgradeBehaviour._isCollectable = true;
-            _playerUpgradeBehaviour.CheckIfUpgradable(0);
+            _playerUpgradeBehaviour.UpgradeModel(0);
         }
     }
     

@@ -3,13 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/CharacterModes/Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/CharacterModes/Fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Attack_slime.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Attack_slime.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Die.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Die.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/FireAnimController 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/FireAnimController 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Idle_fire.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Idle_fire.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Idle_slime.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Idle_slime.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Move_fire.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Move_fire.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Move_slime.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/Move_slime.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/SlimeAnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/PlayerModeAnimations/SlimeAnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Fire_1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UI/ExperienceBarBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/ExperienceBarBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magaraJam_4.sln" beforeDir="false" afterPath="$PROJECT_DIR$/magaraJam_4.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645264774688</updated>
       <workItem from="1645264779632" duration="51000" />
-      <workItem from="1645266320868" duration="17281000" />
+      <workItem from="1645266320868" duration="17907000" />
+      <workItem from="1645346158411" duration="1787000" />
     </task>
     <servers />
   </component>
@@ -96,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
