@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Game.Scripts.Player;
 using UnityEngine;
 
 /// <summary>
@@ -11,12 +12,16 @@ public class HealthBarBehaviour : MonoBehaviour
 {
 
     [SerializeField] private GameObject player;
+    private PlayerAnimController _playerAnimController;
     private float _maxHealth = 100f;
     private float _currentHealth;
+    private float _multiplierIndex = 0.05f;
+    
 
     private void Start()
     {
         _currentHealth = 99f;
+        _playerAnimController = player.GetComponent<PlayerAnimController>();
     }
 
     private void Update()
@@ -24,13 +29,17 @@ public class HealthBarBehaviour : MonoBehaviour
         gameObject.transform.position = new Vector3(player.transform.position.x,
             player.transform.position.y,
             player.transform.position.z -2f);
-
         
     }
     
     public void HealthBarUpdate(float healAmount)
     {
         _currentHealth += healAmount;
+
+        if (healAmount > 0) PlayerSizeChanger(_multiplierIndex);
+        else PlayerSizeChanger(-_multiplierIndex);
+        
+        
 
         if (_currentHealth > _maxHealth)
         {
@@ -39,11 +48,18 @@ public class HealthBarBehaviour : MonoBehaviour
         else if (_currentHealth <= 0f)
         {
             _currentHealth = 0f;
-            // Die();
+            _playerAnimController.Die();
         }
 
             transform.GetChild(0).localScale = new Vector3(_currentHealth / _maxHealth,
             transform.GetChild(0).localScale.y,
             transform.GetChild(0).localScale.z);
+    }
+
+    private void PlayerSizeChanger(float value)
+    {
+        player.transform.localScale = new Vector3(player.transform.localScale.x + value, 
+            player.transform.localScale.y + value,
+        player.transform.localScale.z +  value);
     }
 }

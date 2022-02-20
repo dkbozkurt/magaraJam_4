@@ -27,10 +27,15 @@ namespace Game.Scripts.Player
         #endregion
 
         [SerializeField] private HealthBarBehaviour healthBarBehaviour;
-        private float damageAmount = 10f;
+        private float inputAmount = 25f;
         [HideInInspector] public bool _isCollectable= true;
-        
-        
+        private PlayerAnimController _playerAnimController;
+
+        private void Start()
+        {
+            _playerAnimController = GetComponent<PlayerAnimController>();
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             CheckEnemyType(other.gameObject);
@@ -41,19 +46,26 @@ namespace Game.Scripts.Player
             switch (enemy.tag)
             {
                 case "Fire":
+                    _playerAnimController.Size(+1);
                     Fire();
+                    healthBarBehaviour.HealthBarUpdate(inputAmount);
                     break;
                 
                 case "Ice":
+                    _playerAnimController.Size(+1);
                     Ice();
+                    healthBarBehaviour.HealthBarUpdate(inputAmount);
                     break;
                 
                 case "Stone":
+                    _playerAnimController.Size(+1);
+                    healthBarBehaviour.HealthBarUpdate(inputAmount);
                     Stone();
                     break;
                 
                 case "Shoot":
-                    healthBarBehaviour.HealthBarUpdate(-damageAmount);
+                    _playerAnimController.Size(-1);
+                    healthBarBehaviour.HealthBarUpdate(-inputAmount);
                     break;
                 
             }

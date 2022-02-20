@@ -37,7 +37,7 @@ public class AnimationController : MonoBehaviour
         _animator.SetBool("move",isMoving);
     }
 
-    public void Attack()
+    public void Size()
     {
         
     }
