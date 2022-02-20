@@ -12,49 +12,33 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private  float _timer = 0F;
     [SerializeField] private  float attackCoolDown = 5f;
-    [SerializeField] private  bool attackAvailable = false;
+    private  bool attackAvailable = false;
     private string destinationTag = "Player";
     
     private GameObject _goalGameObject;
     NavMeshAgent agent;
-    
+
+    private ShootBehaviour _shootBehaviour;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         _goalGameObject = GameObject.FindGameObjectWithTag(destinationTag).gameObject;
-        AssignRandomTag();
+        gameObject.transform.LookAt(_goalGameObject.transform);
+        _shootBehaviour = GetComponent<ShootBehaviour>();
     }
     
     void Update()
     {
         EnemyWalkBehaviour();
         Attack();
-        
         if (gameObject.transform.position.y <= -5F)
         { Destroy(gameObject); }
-
     }
-
-    private void AssignRandomTag()
-    {
-        int randomElement = Random.Range(1, 4);
-
-        if (randomElement == 1)
-        {
-            gameObject.tag = "Fire";
-        }
-        else if (randomElement == 2)
-        {
-            gameObject.tag = "Ice";
-        }
-        else if (randomElement == 3)
-        {
-            gameObject.tag = "Stone";
-        }
-    }
+    
 
     private void EnemyWalkBehaviour()
     {
+        gameObject.transform.LookAt(_goalGameObject.transform);
         agent.stoppingDistance = stopDistance;
         agent.speed = speed;
         agent.destination = _goalGameObject.transform.position;
@@ -75,8 +59,10 @@ public class EnemyBehaviour : MonoBehaviour
         if (attackAvailable)
         {
             Debug.Log("attacked to " + _goalGameObject.name);
+            _shootBehaviour.Shoot(gameObject);
             attackAvailable = false;
 
         }
     }
+    
 }

@@ -1,8 +1,56 @@
 fileFormatVersion: 2
-guid: 814c3f9a9ca4ef54b8f8bd6c03fbeecd
+guid: d5c84a1244ca97340a4890b4bea66f00
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -2617409036471299528
+    second: Armature.003|Attack3|Attack3.001
+  - first:
+      74: -5252816984213320552
+    second: idle
+  - first:
+      74: 8878599271443162140
+    second: IdlePieces
+  - first:
+      74: 7411127532904924556
+    second: Armature.003|Armature.003|Armature.003|Armature.003|Armature.003|idle|Armatu
+  - first:
+      74: 1906832033498657566
+    second: Armature.003|Armature.003|Armature.003|Armature.003|Attack3|Attack3|Armature
+  - first:
+      74: -2698983946627388147
+    second: Armature.003|Armature.003|Armature.003|Armature.003|idle.001|idle.001|Armatu
+  - first:
+      74: -7762247538324797571
+    second: Armature.003|Armature.003|Armature.003|Armature.003|IdlePieces|IdlePieces|Ar
+  - first:
+      74: -4427169548676308274
+    second: Armature.003|Armature.003|Armature.003|idle|Armature.003|idle
+  - first:
+      74: -5502893263337967639
+    second: Armature.003|Armature.003|Armature.003|idle|Armature.003|idle.001
+  - first:
+      74: 3476175372763392421
+    second: Armature.003|Armature.003|Attack3.001|Attack3.001
+  - first:
+      74: -6752925179491280062
+    second: Armature.003|Armature.003|Attack3.002|Attack3.002
+  - first:
+      74: 2192394541624388948
+    second: Armature.003|Armature.003|Attack3|Attack3
+  - first:
+      74: -5536408492785452421
+    second: Armature.003|Armature.003|Attack3|Attack3.001
+  - first:
+      74: 812325851380994661
+    second: Armature.003|Armature.003|idle.001|idle.001
+  - first:
+      74: 6102721073599302092
+    second: Armature.003|Armature.003|IdlePieces|IdlePieces
+  - first:
+      74: -2257833066055593409
+    second: Armature.003|idle
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -70,7 +118,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 0
+    blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1

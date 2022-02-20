@@ -22,12 +22,12 @@ namespace Game.Scripts.Player
         [SerializeField] private ExperienceBarBehaviour expBarIce;
         [SerializeField] private ExperienceBarBehaviour expBarStone;
 
-        private float percentageMultiplier= 10f;
+        private float percentageMultiplier= 20f;
         
         #endregion
 
         [SerializeField] private HealthBarBehaviour healthBarBehaviour;
-        private float inputAmount = 10f;
+        private float inputAmount = 20f;
         [HideInInspector] public bool _isCollectable= true;
         private PlayerAnimController _playerAnimController;
 

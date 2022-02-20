@@ -3,85 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="b6850118-007c-4326-80a3-b31ccc1bf210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.magaraJam_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/FireSlime.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/FireSlime.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/BasicSlimeBake/BasicSlimeBake/basic slime_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/Slime.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/Slime.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_baked.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_baked.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_metalness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_metalness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Slime/basic slime_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/FireSlime.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/FireSlime.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/Materials/basic slime.001_Bake1_pbr_emission.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/Materials/basic slime.001_Bake1_pbr_emission.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fire/basic slime.001_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/basic slime.001_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/fireslime.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/fireslime_19022022-1943/fireslime.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Cube_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Materials/Cube_Bake1_pbr_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/Materials/Cube_Bake1_pbr_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/icecube.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/icecube_19022022-1812/icecube.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/Materials/defaultMaterial_Bake1_pbr_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/Materials/defaultMaterial_Bake1_pbr_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/defaultMaterial_Bake1_pbr_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/rockcube.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/rockcube_19022022-1812/rockcube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Cube.001_Bake1_pbr_emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Firegolem.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/EnemyModels/FireGolem_20022022-1450/Firegolem.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/EnemyModels/Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/IceModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/IceModel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/StoneModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/PlayerModels/WithParticles/StoneModel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Dogukan_Deneme.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Textures/ui/play-button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Textures/ui/play-button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemyBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UI/HealthBarBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerUpgradeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Enemy/ShootBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="25K9AzcBkA4bUYrvFoiVFa5C7oI" />
   <component name="ProjectViewState">
@@ -151,7 +89,7 @@
       <updated>1645264774688</updated>
       <workItem from="1645264779632" duration="51000" />
       <workItem from="1645266320868" duration="17907000" />
-      <workItem from="1645346158411" duration="10531000" />
+      <workItem from="1645346158411" duration="15954000" />
     </task>
     <servers />
   </component>
