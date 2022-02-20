@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject spawnPrefab = null;
+    [SerializeField] private GameObject enemyPrefab;
     [Range(0.0F, 40.0F)]
-    public float spawnRange = 25F;
+    public float spawnRange = 25f;
 
     [Range(0.0F, 10F)]
-    public float spawnDelay = 2F;
+    public float spawnDelay = 5f;
     private float _timer;
+
+    private int totalEnemySpawned;
+    private int checkPointEnemySpawnedNumber;
 
     public float rightLaneCenter;
     public int rightLaneSpawnerLow;
@@ -20,26 +23,42 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
+        _timer = 0f;
+        totalEnemySpawned = 0;
+        checkPointEnemySpawnedNumber = 10;
     }
     
     void Update()
     {
-        if (spawnPrefab != null)
+        if (enemyPrefab != null)
         {
             _timer += Time.deltaTime;
             if (_timer >= spawnDelay)
             {
-                _timer = 0;
-                SpawnCube();
+                _timer = 0f;
+                SpawnEnemy();
             }
 
         }
     }
 
-    private void SpawnCube()
+    private void SpawnEnemy()
     {
+        
         Vector3 position = new Vector3(Random.Range(-spawnRange, spawnRange), 2, Random.Range(-spawnRange, spawnRange));
-        Instantiate(spawnPrefab, position, Quaternion.identity);
+        Instantiate(enemyPrefab, position, Quaternion.identity);
+
+        totalEnemySpawned++;
+        if (totalEnemySpawned >= checkPointEnemySpawnedNumber)
+        {
+            checkPointEnemySpawnedNumber += totalEnemySpawned;
+            if (spawnDelay > 0.5f)
+            {
+                spawnDelay -= 0.2f;
+            }
+        }
+
+        
     }
 }
 
